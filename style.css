@@ -19,6 +19,11 @@
         width: 100vw;
     }
 
+    .img{
+        height: 100vh;
+        width: 100vw;
+    }
+
     .caja{
         height: 7vh;
         width: 20vw;  
