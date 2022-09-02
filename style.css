@@ -1,0 +1,1427 @@
+
+
+    body{
+        background-color: rgb(255, 255, 255);
+        width: 100vh;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    @font-face {
+        font-family: 'ForteDani'; /*a name to be used later*/
+        src: url('font/FORTE.TTF'); /*URL to font*/
+    }
+
+    /*Cabezera*/
+    .imagen1{
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+        width: 100vh;
+    }
+
+    .caja{
+        height: 7vh;
+        width: 20vw;  
+        background-color: rgba(255, 0, 0, 0);
+        display: block;
+        position: fixed;
+        top: 0px;
+        left: 33.5%;
+    }
+
+    .caja2{
+        height: 7vh;
+        width: 10vw;  
+        background-color: rgba(4, 0, 255, 0);
+        display: block;
+        position: fixed;
+        top: 0px;
+        right: 33.5%;
+    }
+
+    .caja3{
+        height: 7vh;
+        width: 15vw;  
+        background-color: rgba(4, 0, 255, 0);
+        display: block;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+
+    /*QuienSoy*/
+    .cajitaQuienSoy{
+        background-image: url("img/yanduti.jpg");
+        background-size: contain;
+        width: 100vw;
+    }
+
+    .cajitaQuienSoyFondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quienesSomosCuadro{
+        width: 40vw;
+        background-color: #ffffff7c;
+        border: white 1px solid;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .perfil{
+        width: 160px;
+        height: 160px;
+        margin-bottom: 25px;
+        border-radius: 100%;
+        background-image: url("img/perfil_maria\ Liz.png");
+        background-size: cover;
+        border: white 1px solid;
+    }
+
+
+    /*Campana*/
+    .cajitaCampaña{
+        background-image: url("img/yanduti.jpg");
+        background-size: contain;
+        width: 100vw;
+    }
+
+    .cajitaCampañaFondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .espacioCarousel{
+        width: 60vw;
+    }
+
+    .carousel{
+        width: 60vw !important;
+    }
+
+
+
+    /*Propuesta ----------------------------------*/
+    .cajitaPropuestas{
+        background-image: url("img/yanduti.jpg");
+        width: 100vw;
+        background-size: contain;
+        
+    }
+
+    .cajitaPropuestasFondo{
+        background-color: rgba(193, 34, 31, 0.815);
+        width: 100vw;
+        justify-content: center;
+        align-items: flex-start;
+        display: flex;  
+        flex-wrap: wrap;
+    }
+
+    .item_propuesta{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+        border-radius: 6px;
+        width: 550px;
+    }
+
+    .item_propuesta_i{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin-right: 8px;
+        border: rgb(111, 0, 0) 1px solid;
+        float: left;
+    }
+
+    .item_propuesta_p{
+        text-align: start;
+    }
+
+    .ultimoElemento{
+        width: 72vw;
+    }
+
+    /*Carrera ----------------------------------*/
+
+    .cajitaCarrera{
+        background-image: url("img/yanduti.jpg");
+        width: 100vw;
+        background-size: contain;
+    }
+
+    .cajitaCarreraFondo{
+        background-color: rgba(193, 34, 31, 0.815);
+        width: 100vw;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carreraCuadro{
+        width: 60vw;
+        padding-left: 20px;
+        background-color: #ffffff7c;
+        border: white 1px solid;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carreraImg{
+        width: 35vw;
+        height: 600px;
+        margin-left: 10px;
+        background-image: url("img/propuesta.png");
+        background-size: cover;
+        border: white 1px solid;
+    }
+
+    /*formulario*/
+
+    .cajitaFormulario{
+        background-image: url("img/yanduti.jpg");
+        width: 100vw;
+        background-size: contain;
+        
+    }
+
+    .cajitaFormularioFondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        width: 100vw;
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logosEspacio{
+        background-color: white;
+        width: 100vw;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .extender{
+        background-color: rgba(160, 3, 13, 0.726);
+        border-radius: 20px;
+        padding: 30px;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+    .btn-enviar{
+        background-color: rgba(227,6,19,255); /* Green */
+        border: none;
+        color: white;
+        padding: 8px 13px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Heavy', arial;
+    }
+    
+
+    .btn-enviar:hover{
+        background-color: rgb(131, 15, 15);
+        cursor: pointer;
+    }
+
+    .btn-enviar:active{
+        background-color: rgb(158, 19, 19);
+    }
+
+    .logos{
+        width: 80vw;
+        display: flex;
+    }
+
+
+
+
+
+
+    .textBase{
+        font-family: 'ITC Franklin Gothic', arial;
+        font-size: 20px;
+        color: white;
+    }
+
+
+    .social{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        bottom: 43vh;
+        left: 5px;
+        z-index: 8;
+    }
+
+    .instagram{
+        background-color: #ac2bac;
+    }
+
+    .instagram:hover{
+        background-color: #850385;
+    }
+
+    .instagram:active{
+        background-color: #a503a5;
+    }
+
+    .facebook{
+        background-color: #0d04ae;
+    }
+
+    .facebook:hover{
+        background-color: #1b0266;
+    }
+
+    .facebook:active{
+        background-color: #270199;
+    }
+
+    .twitter{
+        background-color: #3e75eb;
+    }
+
+    .twitter:hover{
+        background-color: #2231a2;
+    }
+
+    .twitter:active{
+        background-color: #3644ad;
+    }
+
+    .whatsapp{
+        background-color: rgb(2, 190, 71);
+    }
+
+    .whatsapp:hover{
+        background-color: rgb(2, 143, 53);
+    }
+
+    .whatsapp:active{
+        background-color: rgb(2, 160, 71);
+    }
+
+    .baseInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(255, 255, 255);
+        opacity: 1; /* Firefox */
+    }
+
+    .baseInput{
+        width: 100%;
+        color: rgb(255, 255, 255) !important;
+        background-color: rgba(160, 3, 13, 0.726);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 0.9rem;
+        padding: 0.3rem 0.5rem;
+        font-family: 'Franklin Gothic Heavy', arial;
+    }
+    
+    .baseInput:focus{
+        outline: none;
+        background-color: rgba(160, 3, 13, 0.726);
+        border-color: rgba(227,6,19,255);
+        box-shadow: 0 0 3px rgba(227,6,19,255);
+        -moz-box-shadow: 0 0 3px rgba(227,6,19,255);
+        -webkit-box-shadow: 0 0 3px rgba(227,6,19,255);
+    }
+
+ 
+
+   
+
+
+
+
+
+    .colaborador{
+        margin-top: 2%;
+        color: white;
+        font-size: 60px;
+        font-family: 'ForteDani', sans-serif;  
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+     
+    
+    
+
+    
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 200px) {
+
+    .button {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        min-width: 260px;
+        min-height: 60px;
+        font-size: 15px;
+    }
+      
+    .button::before {
+        min-width: calc(260px + 12px);
+        min-height: calc(60px + 12px);
+    }
+      
+    @keyframes ring {
+        0% {
+          width: 30px;
+          height: 30px;
+          opacity: 1;
+        }
+        100% {
+          width: 150px;
+          height: 150px;
+          opacity: 0;
+        }
+    }
+
+
+
+
+
+
+
+
+    .cabezera{
+        background-color: white;
+        min-height: 50vh;
+    }
+
+
+    .imagenCabezera{
+        width: 80vw;
+    }
+
+    .quienesSomosCuadro{
+        width: 75vw;
+    }
+
+    .espacioCarousel{
+        width: 75vw;
+    }
+
+    .carousel{
+        width: 75vw !important;
+    }
+
+    .item_propuesta{
+        width: 75vw;
+    }
+
+    .ultimoElemento{
+        width: 75vw;
+    }
+
+    .carreraCuadro{
+        width: 78vw;
+        flex-direction: column-reverse;
+        padding-right: 20px;
+        padding-top: 15px;
+    }
+
+    .carreraImg{
+        width: 0px;
+        height: 0px;
+        margin-left: 0px;
+        border-radius: 100%;
+        margin-bottom: 10px;
+        border: 0px;
+        background-image: url("img/perfil_maria\ Liz.png");
+        background-size: contain;
+    } 
+
+    .extender{
+        width: 70vw;
+    }
+
+    .logos{
+        width: 85vw;
+    }
+    
+}   
+    
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 660px) {
+    .cabezera{
+        background-color: white;
+        min-height: 70vh;
+    }
+
+    .button {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        min-width: 340px;
+        min-height: 60px;
+        font-size: 18px;
+    }
+      
+    .button::before {
+        min-width: calc(340px + 12px);
+        min-height: calc(60px + 12px);
+    }
+      
+    @keyframes ring {
+        0% {
+          width: 30px;
+          height: 30px;
+          opacity: 1;
+        }
+        100% {
+          width: 250px;
+          height: 250px;
+          opacity: 0;
+        }
+    }
+
+
+    .imagenCabezera{
+        width: 90vw;
+    }
+
+    .quienesSomosCuadro{
+        width: 78vw;
+    }
+
+    .espacioCarousel{
+        width: 78vw;
+    }
+
+    .carousel{
+        width: 78vw !important;
+    }
+
+    .item_propuesta{
+        width: 78vw;
+    }
+
+    .ultimoElemento{
+        width: 78vw;
+    }
+
+    .carreraCuadro{
+        width: 78vw;
+        flex-direction: column-reverse;
+        padding-right: 20px;
+        padding-top: 15px;
+    }
+
+    .carreraImg{
+        width: 0px;
+        height: 0px;
+        margin-left: 0px;
+        border-radius: 100%;
+        margin-bottom: 10px;
+        border: 0px;
+        background-image: url("img/perfil_maria\ Liz.png");
+        background-size: contain;
+    } 
+
+    .extender{
+        width: 45vw;
+    }
+
+    .logos{
+        width: 85vw;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cabezera{
+        background-color: white;
+        min-height: 80vh;
+    }
+
+    .imagenCabezera{
+        width: 90vw;
+    }
+
+    .quienesSomosCuadro{
+        width: 60vw;
+    }
+
+    .espacioCarousel{
+        width: 60vw;
+    }
+
+    .carousel{
+        width: 60vw !important;
+    }
+
+    .item_propuesta{
+        width: 80vw;
+    }
+
+    .ultimoElemento{
+        width: 80vw;
+    }
+
+    .carreraCuadro{
+        width: 83vw;
+        flex-direction: column-reverse;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .carreraImg{
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        border-radius: 100%;
+        margin-bottom: 10px;
+        background-image: url("img/perfil_maria\ Liz.png");
+        background-size: contain;
+    } 
+
+    .extender{
+        width: 45vw;
+    }
+
+    .logos{
+        width: 85vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 850px) {
+    .cabezera{
+        background-color: white;
+        min-height: 80vh;
+    }
+
+    .imagenCabezera{
+        width: 90vw;
+    }
+
+    .quienesSomosCuadro{
+        width: 60vw;
+    }
+
+    .espacioCarousel{
+        width: 60vw;
+    }
+
+    .carousel{
+        width: 60vw !important;
+    }
+
+    .item_propuesta{
+        width: 80vw;
+    }
+
+    .ultimoElemento{
+        width: 80vw;
+    }
+
+    .carreraCuadro{
+        width: 90vw;
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-top: 0px;
+        background-color: #ffffff7c;
+        border: white 1px solid;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carreraImg{
+        width: 43vw;
+        height: 500px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        background-image: url("img/propuesta.png");
+        border-radius: 0px;
+        background-size: cover;
+        border: white 1px solid;
+    }
+
+    .extender{
+        width: 45vw;
+    }
+
+    .logos{
+        width: 80vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .cabezera{
+        min-height: 90vh;
+        background-color: white;
+    }
+
+
+    .button {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        min-width: 340px;
+        min-height: 60px;
+        font-size: 18px;
+    }
+      
+    .button::before {
+        min-width: calc(340px + 12px);
+        min-height: calc(60px + 12px);
+    }
+      
+    @keyframes ring {
+        0% {
+          width: 30px;
+          height: 30px;
+          opacity: 1;
+        }
+        100% {
+          width: 250px;
+          height: 250px;
+          opacity: 0;
+        }
+    }
+
+    .imagenCabezera{
+        width: 85vw;
+    }
+
+    .quienesSomosCuadro{
+        width: 45vw;
+    }
+
+    .espacioCarousel{
+        width: 60vw;
+    }
+
+    .carousel{
+        width: 60vw !important;
+    }
+
+    .ultimoElemento{
+        width: 92vw;
+    }
+
+    .carreraCuadro{
+        width: 90vw;
+    }
+
+    .carreraImg{
+        width: 43vw;
+        height: 500px;
+        margin-left: 10px;
+        background-image: url("img/propuesta.png");
+        background-size: cover;
+        border: white 1px solid;
+    }
+
+    .item_propuesta{
+        width: 450px;
+    }
+
+    .ultimoElemento{
+        width: 85vw;
+    }
+
+    .extender{
+        width: 33vw;
+    }
+
+    .logos{
+        width: 80vw;
+    }
+
+}
+
+/*Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .cabezera{
+        background-color: rgba(255, 255, 255, 0.815);
+        min-height: 100vh;
+        padding-top: 30px;
+    }
+
+    .button {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        min-width: 340px;
+        min-height: 60px;
+        font-size: 18px;
+    }
+      
+    .button::before {
+        min-width: calc(340px + 12px);
+        min-height: calc(60px + 12px);
+    }
+      
+    @keyframes ring {
+        0% {
+          width: 30px;
+          height: 30px;
+          opacity: 1;
+        }
+        100% {
+          width: 300px;
+          height: 300px;
+          opacity: 0;
+        }
+    }
+
+    .imagenCabezera{
+        width: 75vw;
+    }
+
+    .quienesSomosCuadro{
+        width: 35vw;
+    }
+
+    .espacioCarousel{
+        width: 60vw;
+    }
+
+    .carousel{
+        width: 60vw !important;
+    }
+
+    .item_propuesta{
+        width: 550px;
+    }
+
+    .ultimoElemento{
+        width: 72vw;
+    }
+
+    .carreraCuadro{
+        width: 70vw;
+    }
+
+    .carreraImg{
+        width: 35vw;
+        height: 600px;
+        margin-left: 10px;
+        background-image: url("img/propuesta.png");
+        background-size: cover;
+        border: white 1px solid;
+    }
+
+    .extender{
+        width: 25vw;
+    }
+
+    .espacioCarousel{
+        width: 50vw;
+    }
+
+    .carousel{
+        width: 50vw !important;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media only screen and (max-width: 599px) {
+    .cajita2FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+
+    .PropuestaCuadro{
+        height: 45vh;
+        width: 85vw;
+    }
+
+    .propuestaImg{
+        width: 290vw;
+        height: 45vh;
+    }
+
+
+    .cajita{
+        height: 30vh;
+    }
+
+
+    .perfil{
+        width: 130px;
+        height: 130px;
+    }
+
+    .quienesSomosCuadro{
+        height: 55vh;
+        width: 80vw;
+        padding: 20px;
+    }
+
+    .textBase{
+        font-size: 18px;
+    }
+
+
+
+    .cajita2{
+        height: 63vh;
+    }
+
+
+
+    .cajitaCampaña{
+        height: 55vh;
+        width: 100vw;
+    }
+
+    .cajitaCampañaFondoRojo{
+        height: 55vh;
+        width: 100vw;
+    }
+
+    .carousel{
+        width: 58vw !important;
+    }
+
+    .videoholder {
+        overflow:hidden;
+        height: 38vh;
+        width: 58vw;
+          background:url("http://lorempixel.com/1140/450/") no-repeat scroll center top /cover  #666;
+    }
+
+    .iconCar{
+        height: 30vh;
+    }
+
+
+
+
+    .cajita2FondoRojo{
+        height: 63vh;
+    }
+
+    .cajita3FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        height: 75vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cajita3{
+        background-image: url("img/fondo.jpg");
+        background-size: cover;
+        height: 65vh;
+        width: 100vw;
+    }
+
+
+    .espacioTrabajo{
+        margin-top: 9%;
+        height: 20vw;
+    }
+
+    .trabajo{
+        width: 50vw;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .propuesta{
+        width: 80vw;
+        display: flex;
+    }
+
+    .colaborador{
+        font-size: 33px;
+    }
+
+    .extender{
+        margin-top: 8px;
+        width: 60vw;
+        height: 46vh;
+    }
+
+    .espacio{
+        height: 85vh;
+    }
+
+    .logosEspacio{
+        height: 20vh;
+    }
+
+    .imagenCabezera{
+        width: 80vw;
+    }
+
+    .logos{
+        width: 85vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cajita2FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .cajita{
+        height: 30vh;
+    }
+
+    .cajita2{
+        height: 55vh;
+    }
+
+    .cajita2FondoRojo{
+        height: 55vh;
+    }
+
+    .cajita3FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        height: 70vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cajita3{
+        background-image: url("img/fondo.jpg");
+        background-size: cover;
+        height: 60vh;
+        width: 100vw;
+    }
+
+
+    .espacioTrabajo{
+        margin-top: 9%;
+        height: 20vw;
+    }
+
+    .trabajo{
+        width: 50vw;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .propuesta{
+        width: 80vw;
+        display: flex;
+    }
+
+    .colaborador{
+        font-size: 33px;
+    }
+
+    .extender{
+        margin-top: 8´x;
+        width: 60vw;
+        height: 45vh;
+    }
+
+    .espacio{
+        height: 85vh;
+    }
+
+    .logosEspacio{
+        height: 20vh;
+    }
+
+    .imagenCabezera{
+        width: 80vw;
+    }
+
+    .logos{
+        width: 85vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .cajita2FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .cajita{
+        height: 30vh;
+    }
+
+    .cajita2{
+        height: 65vh;
+    }
+
+    .cajita2FondoRojo{
+        height: 65vh;
+    }
+
+    .quienesSomosCuadro{
+        height: 70vh;
+    }
+
+    .PropuestaCuadro{
+        height: 50vh;
+    }
+
+    .propuestaImg{
+        height: 50vh;
+        width: 550vw;
+    }
+
+    .extender{
+        margin-top: 2px;
+        height: 450px;
+        width: 80vw;
+    }
+
+    .textBase{
+        font-size: 15px;
+    }
+
+    .cajita3FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        height: 650px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cajita3{
+        background-image: url("img/fondo.jpg");
+        background-size: cover;
+        height: 650px;
+        width: 100vw;
+    }
+
+
+    .espacioTrabajo{
+        margin-top: 9%;
+        height: 20vw;
+    }
+
+    .trabajo{
+        width: 60vw;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .propuesta{
+        width: 93vw;
+        display: flex;
+    }
+
+    .colaborador{
+        font-size: 23px;
+    }
+
+    .espacio{
+        height: 85vh;
+    }
+
+    .logosEspacio{
+        height: 15vh;
+    }
+
+    .imagenCabezera{
+        width: 90vw;
+    }
+
+    .logos{
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 301px){
+    .cajita2FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .cajita{
+        height: 22vh;
+    }
+
+    .cajita2{
+        height: 39vh;
+    }
+
+    .cajita2FondoRojo{
+        height: 46vh;
+    }
+
+    .cajita3FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        height: 850px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cajita3{
+        background-image: url("img/fondo.jpg");
+        background-size: cover;
+        height: 850px;
+        width: 100vw;
+    }
+
+
+    .espacioTrabajo{
+        margin-top: 9%;
+        height: 20vw;
+    }
+
+    .trabajo{
+        width: 60vw;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .propuesta{
+        width: 93vw;
+        display: flex;
+    }
+
+    .colaborador{
+        font-size: 20px;
+    }
+
+    .extender{
+        margin-top: 2px;
+        height: 450px;
+        width: 80vw;
+    }
+
+    .espacio{
+        height: 85vh;
+    }
+
+    .logosEspacio{
+        height: 15vh;
+    }
+
+    .imagenCabezera{
+        width: 90vw;
+    }
+
+    .logos{
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-height: 750px){
+    .cajita2FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .cajita{
+        height: 22vh;
+    }
+
+    .cajita2{
+        height: 75vh;
+    }
+
+    .cajita2FondoRojo{
+        height: 75vh;
+    }
+
+    .PropuestaCuadro{
+        height: 58vh;
+    }
+
+    .cajita3FondoRojo{
+        background-color: rgba(193, 34, 31, 0.815);
+        height: 550px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cajita3{
+        background-image: url("img/fondo.jpg");
+        background-size: cover;
+        height: 550px;
+        width: 100vw;
+    }
+
+
+    .espacioTrabajo{
+        margin-top: 9%;
+        height: 20vw;
+    }
+
+    .trabajo{
+        width: 60vw;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .propuesta{
+        width: 93vw;
+        display: flex;
+    }
+
+    .colaborador{
+        font-size: 20px;
+    }
+
+    .extender{
+        margin-top: 2px;
+        height: 390px;
+        width: 80vw;
+    }
+
+    .espacio{
+        height: 85vh;
+    }
+
+    .logosEspacio{
+        height: 15vh;
+    }
+
+    .imagenCabezera{
+        width: 90vw;
+    }
+
+    .logos{
+        width: 90vw;
+    }
+}
+
+
+@media only screen and (max-height: 500px){
+
+    .logosEspacio{
+        height: 0vh;
+        visibility: hidden;
+    }
+
+    .logos{
+        width: 0vw;
+        visibility: hidden;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
